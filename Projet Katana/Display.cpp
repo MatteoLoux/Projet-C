@@ -6,7 +6,7 @@ using namespace std;
 int Choice() {
 	//Affiche les choix et enregistre la saisie
 	cout << "1. Jouer" << endl;
-	cout << "2. Afficher les règles" << endl;
+	cout << "2. Afficher les regles" << endl;
 	cout << "3. Quitter" << endl;
 	cout << "Choisissez entre 1 et 3 : ";
 	int choice;

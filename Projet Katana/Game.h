@@ -4,6 +4,7 @@
 #define HEADER_GAME
 class Game
 {
+
 };
 
 #endif

@@ -45,7 +45,9 @@ public:
 
 
 	//Méthodes
-	bool IsAlive();
+	bool IsAlive(); //Renvoie true si le joueur est en vie, false sinon
+
+	void DisplayDeck(); //Affichage du deck du joueur
 };
 #endif 
 
