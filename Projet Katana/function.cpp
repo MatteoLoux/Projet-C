@@ -19,7 +19,7 @@ void doubler(int *x)
 	 *x *= 2;
 }
 
-int main() {
+int maint() {
 	int nombre = 5;
 	doubler(&nombre);
 	cout << nombre;

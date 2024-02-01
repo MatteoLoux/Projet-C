@@ -15,7 +15,7 @@ using namespace std;
 class Player
 {
 private:
-	string pseudo;
+	string name;
 	Role role;
 	Character personnage;
 	int lifePoint;
@@ -25,23 +25,23 @@ private:
 
 public:
 	//Constructeur
-	Player(string pseudo);
+	Player(string name);
 
 	//Getters
-	string getPseudo() { return this->pseudo; }
-	int getLifePoint() { return this->lifePoint; }
-	int getHonnorPoint() { return this->honnorPoint; }
-	Character getCharacter() { return this->personnage; }
-	Role getRole() { return this->role; }
+	string GetName() { return this->name; }
+	int GetLifePoint() { return this->lifePoint; }
+	int GetHonnorPoint() { return this->honnorPoint; }
+	Character GetCharacter() { return this->personnage; }
+	Role GetRole() { return this->role; }
 	vector<Card> GetDeck() { return this->Deck; }
 
 	//Setters
-	void setPseudo(string name) { this->pseudo = name; }
-	void setLifePoint(int LifePoint) { this->lifePoint = LifePoint; }
-	void setHonnorPoint(int HonnorPoint) { this->honnorPoint = HonnorPoint; }
-	void setCharacter(Character character) { this->personnage = character; }
-	void setRole(Role Role) { this->role = Role; }
-	void setDeck(vector<Card> deck) { this->Deck = deck; }
+	void SetName(string Pseudo) { this->name = Pseudo; }
+	void SetLifePoint(int LifePoint) { this->lifePoint = LifePoint; }
+	void SetHonnorPoint(int HonnorPoint) { this->honnorPoint = HonnorPoint; }
+	void SetCharacter(Character Character) { this->personnage = Character; }
+	void SetRole(Role Role) { this->role = Role; }
+	void SetDeck(vector<Card> Deck) { this->Deck = Deck; }
 
 
 	//Méthodes

@@ -2,6 +2,7 @@
 
 Player::Player(string pseudo)
 {
+	this->name = pseudo;
 }
 
 bool Player::IsAlive()
