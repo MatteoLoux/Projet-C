@@ -3,6 +3,7 @@
 #ifndef HEADER_CHARACTER
 #define HEADER_CHARACTER
 #include <string>
+#include "CardSkill.h"
 using namespace std;
 
 class Character

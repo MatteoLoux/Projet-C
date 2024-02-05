@@ -12,52 +12,52 @@ Character::Character(string name)
 void GetAttributsByName(Character character) {
 	string name = character.GetName();
 	if (name == "Hanzo") {
-		character.SetDescSkill("");
+		character.SetDescSkill(HANZO_S);
 		character.SetHp(4);
 	}
 	else if (name == "Ushiwaka") {
-		character.SetDescSkill("");
+		character.SetDescSkill(USHIWAKA_S);
 		character.SetHp(4);
 	}
 	else if (name == "Chiyome") {
-		character.SetDescSkill("");
+		character.SetDescSkill(CHIYOME_S);
 		character.SetHp(4);
 	}
 	else if (name == "Hideyoshi") {
-		character.SetDescSkill("");
+		character.SetDescSkill(HIDEYOSHI_S);
 		character.SetHp(4);
 	}
 	else if (name == "Ginchiyo") {
-		character.SetDescSkill("");
+		character.SetDescSkill(GINCHIYO_S);
 		character.SetHp(4);
 	}
 	else if (name == "Goemon") {
-		character.SetDescSkill("");
+		character.SetDescSkill(GOEMON_S);
 		character.SetHp(5);
 	}
 	else if (name == "Nobunaga") {
-		character.SetDescSkill("");
+		character.SetDescSkill(NOBUNAGA_S);
 		character.SetHp(5);
 	}
 	else if (name == "Tomoe") {
-		character.SetDescSkill("");
+		character.SetDescSkill(TOMOE_S);
 		character.SetHp(5);
 	}
 	else if (name == "Iesayu") {
-		character.SetDescSkill("");
+		character.SetDescSkill(IEYASU_S);
 		character.SetHp(5);
 	}
 	else if (name == "Benkai") {
-		character.SetDescSkill("");
+		character.SetDescSkill(BENKAI_S);
 		character.SetHp(5);
 	}
 	else if (name == "Musashi") {
-		character.SetDescSkill("");
+		character.SetDescSkill(MUSASHI_S);
 		character.SetHp(5);
 	} 
 	else if (name == "Kojiro")
 	{
-		character.SetDescSkill("");
+		character.SetDescSkill(KOJIRO_S);
 		character.SetHp(5);
 	}
 }
