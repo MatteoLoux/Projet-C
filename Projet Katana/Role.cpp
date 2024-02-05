@@ -2,5 +2,5 @@
 
 Role::Role(string name)
 {
-	this->Name = name
+	this->Name = name;
 }
