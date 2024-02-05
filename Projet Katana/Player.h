@@ -1,4 +1,7 @@
 #pragma once
+
+#ifndef HEADER_PLAYER
+#define HEADER_PLAYER
 #include <iostream>
 #include <string>
 #include <vector>
@@ -7,10 +10,6 @@
 #include "Character.h"
 
 using namespace std;
-
-#ifndef HEADER_PLAYER
-#define HEADER_PLAYER
-
 
 class Player
 {
