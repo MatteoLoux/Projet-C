@@ -2,6 +2,24 @@
 #ifndef HEADER_CARD_SKILL
 #define HEADER_CARD_SKILL
 
+//Hp selon les personnnages
+#define HANZO_HP 4
+#define BENKAI_HP 5
+#define CHIYOME_HP 4
+#define GINCHIYO_HP 4
+#define GOEMON_HP 5
+#define HIDEYOSHI_HP 4
+#define IEYASU_HP 5
+#define KOJIRO_HP 5
+#define MUSASHI_HP 5
+#define NOBUNAGA_HP 5
+#define TOMOE_HP 5
+#define USHIWAKA_HP 4
+
+
+
+
+
 //Description des capacités spéciales des personnages
 #define HANZO_S "Vous pouvez jouer vos cartes d’arme comme des (à moins que ça ne soit votre dernière carte en main).Vous pouvez aussi utiliser cette capacité contre un Cri de guerre."
 #define BENKAI_S "les autres joueurs vous attaquent avec une difficulté augmentée de 1."
@@ -20,9 +38,9 @@
 #define CRI_DE_GUERRE "Les joueurs doivent défausser 1 (symbole deux bras en x ) ou perdre 1 poitns de vie, Les joueurs à terre ne sont pas affectés par cette carte"
 #define	DAIMYO "iocher 2 cartes, si vous posséder cette carte a la fin de la partie, elle vous rapporte 1 point d'honneur"
 #define	DIVERSION "Piochez au hasard 1 carte dans la main d'un joueur de votre choix et ajoutez la a votre main"
-#define GEAISHA "defausser 1 carte permanente en jeu ou 1 carte au hasard de la main d'un autre joueur"
+#define GEISHA "defausser 1 carte permanente en jeu ou 1 carte au hasard de la main d'un autre joueur"
 #define MEDITATION "Récupérer tous vos points de vie. Un autre joueur de votre choix pioche 1 carte"
-#define	PARADE "(symbole deux bras en x ) (permet de se proteger d'un attaque d'une arme)"
+#define	PARADE "permet de se proteger d'un attaque d'une arme"
 #define	CEREMONIE_DU_THE "Piochez 3 cartes. Les autres joueur piochent 1 carte."
 #define	JUJITSU "Les autres joueurs doivent défaussez 1 armes ou perdre 1 point de vie"
 

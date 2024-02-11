@@ -2,7 +2,9 @@
 #ifndef HEADER_ACTION
 #define HEADER_ACTION
 #include "Card.h"
-class Action :  Card
+#include <iostream>
+#include <iomanip>
+class Action : public Card
 {
 private:
 	string Skill;

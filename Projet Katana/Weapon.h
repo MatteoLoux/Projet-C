@@ -2,11 +2,15 @@
 #ifndef HEADER_WEAPON
 #define HEADER_WEAPON
 #include "Card.h"
-class Weapon :  Card
+#include <iostream>
+#include <iomanip>
+using namespace std;
+class Weapon :  public Card
 {
 private:
 	int Damage;
 	int Range;
+	
 
 public:
 	//Constructeur

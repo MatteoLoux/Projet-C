@@ -15,7 +15,8 @@ private:
 
 public:
 	//Constructeur 
-	Character(string Name);
+	Character();
+	Character(string name, string skill, int hp);
 
 	//Getters
 	string GetName() { return this->Name; }

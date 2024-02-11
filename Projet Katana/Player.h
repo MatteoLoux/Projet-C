@@ -19,7 +19,7 @@ private:
 	Character personnage;
 	int lifePoint;
 	int honnorPoint;
-	vector<Card> Deck {};
+	vector<Card*>* Deck;
 
 
 public:
@@ -32,7 +32,7 @@ public:
 	int GetHonnorPoint() { return this->honnorPoint; }
 	Character GetCharacter() { return this->personnage; }
 	Role GetRole() { return this->role; }
-	vector<Card> GetDeck() { return this->Deck; }
+	vector<Card*>* GetDeck() { return this->Deck; }
 
 	//Setters
 	void SetName(string Pseudo) { this->name = Pseudo; }
@@ -40,13 +40,15 @@ public:
 	void SetHonnorPoint(int HonnorPoint) { this->honnorPoint = HonnorPoint; }
 	void SetCharacter(Character Character) { this->personnage = Character; }
 	void SetRole(Role Role) { this->role = Role; }
-	void SetDeck(vector<Card> Deck) { this->Deck = Deck; }
+	void SetDeck(vector<Card*>* Deck) { this->Deck = Deck; }
 
 
 	//Méthodes
 	bool IsAlive(); //Renvoie true si le joueur est en vie, false sinon
-
+	void RemoveCardDeck(int i); //Retire une carte du deck, prends l'indice de la carte dans le deck en parametre
+	void GiveHp(); //Donne les hp selon le personnage
 	void DisplayDeck(); //Affichage du deck du joueur
+	void AddCardDeck(Card* card); //Ajoute une carte dans le deck, prends une carte en parametre
 };
 #endif 
 

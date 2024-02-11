@@ -1,7 +1,7 @@
 #pragma once
 #ifndef HEADER_DISPLAY
 #define HEADER_DISPLAY
-
+#include <iostream>
 int Choice(); //Affichage des choix
 
 int Start(); //Affichage au lancement du jeu, renvoie le choix du joueur. (1-> jouer, 2-> règles,3-> quitter)

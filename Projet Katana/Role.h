@@ -11,6 +11,7 @@ private:
 	string Name;
 public:
 	//Constructeur
+	Role();
 	Role(string Name); 
 
 	//Getters
