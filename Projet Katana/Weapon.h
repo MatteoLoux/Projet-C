@@ -21,7 +21,7 @@ public:
 	int GetRange() { return this->Range; }
 	
 	//Affichage
-	void Display();
+	void Display() override;
 };
 
 #endif // !HEADER_WEAPON

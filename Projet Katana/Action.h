@@ -9,6 +9,7 @@ class Action : public Card
 private:
 	string Skill;
 
+	
 public:
 	//Constructeur
 	Action(string name, string skill);
@@ -17,7 +18,7 @@ public:
 	string GetSkill() { return this->Skill; }
 
 	//Affichage
-	void Display();
+	void Display() override;
 };
 
 #endif

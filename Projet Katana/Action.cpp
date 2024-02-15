@@ -9,21 +9,11 @@ Action::Action(string name, string skill)
 
 void Action::Display()
 {
-	cout << "-----------------------" << endl;
-	cout << "| " << setw(21) << left << this->GetName() << "|" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "|                      |" << endl;
-	cout << "-----------------------" << endl;
+	cout << "+------------+" << endl;
+	cout << "|" << setw(11) << left << this->GetName() << " |" << endl;
+	cout << "|            |" << endl;
+	cout << "|            |" << endl;
+	cout << "|            |" << endl;
+	cout << "|            |" << endl;
+	cout << "+------------+" << endl;
 }

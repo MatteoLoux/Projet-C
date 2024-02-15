@@ -17,7 +17,7 @@ public:
 	string GetSkill() { return this->Skill; }
 
 	//Affichage
-	void Display();
+	void Display() override;
 
 };
 

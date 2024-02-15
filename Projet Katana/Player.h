@@ -44,11 +44,14 @@ public:
 
 
 	//Méthodes
-	bool IsAlive(); //Renvoie true si le joueur est en vie, false sinon
+	void TakeDamage(int damage); //Prends des dégats, peut changer en fonction du personnage
+	bool IsGrounded(); // Renvoie true si le joueur est a terre, false sinon
 	void RemoveCardDeck(int i); //Retire une carte du deck, prends l'indice de la carte dans le deck en parametre
 	void GiveHp(); //Donne les hp selon le personnage
 	void DisplayDeck(); //Affichage du deck du joueur
 	void AddCardDeck(Card* card); //Ajoute une carte dans le deck, prends une carte en parametre
+	bool GotParade(); //Renvoie true si le joueur possède une parade
+	size_t findIndexParade();
 };
 #endif 
 
